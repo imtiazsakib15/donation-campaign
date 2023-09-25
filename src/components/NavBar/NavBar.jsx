@@ -9,7 +9,7 @@ const NavBar = () => {
   const [showMenuBar, setShowMenuBar] = useState(false);
   return (
     <>
-      <nav className="container mx-auto px-6 sm:px-10 lg:px-20 pt-8">
+      <nav className="container mx-auto px-6 sm:px-10 lg:px-20 py-8">
         <div className="flex justify-between items-center relative">
           <Link to="/">
             <img className="w-40 md:w-60" src={logo} alt="" />
