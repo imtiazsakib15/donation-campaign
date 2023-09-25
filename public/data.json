@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "picture": "https://i.ibb.co/fdQnTW2/medical-supplies.jpg",
+    "title": "Medical Supplies for Local Clinic",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_button_bg": "#0052FF",
+    "description": "Donate funds to provide essential medical supplies and support for a local clinic serving underprivileged communities.",
+    "price": 500
+  },
+  {
+    "id": 2,
+    "picture": "https://i.ibb.co/JyyvqkX/scholarship.jpg",
+    "title": "Scholarships for Underprivileged Students",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_button_bg": "#FF444A",
+    "description": "Contribute to scholarships that enable underprivileged students to access quality education and build a brighter future.",
+    "price": 300
+  },
+  {
+    "id": 3,
+    "picture": "https://i.ibb.co/NVXy0Fx/clothing-drive.jpg",
+    "title": "Clothing Drive for Needy Families",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_button_bg": "#79C23F",
+    "description": "Support a clothing drive initiative to provide warm clothes and essentials to families in need during the winter season.",
+    "price": 150
+  },
+  {
+    "id": 4,
+    "picture": "https://i.ibb.co/JpQmpdJ/meal-donations.jpg",
+    "title": "Meal Donations for Homeless Shelters",
+    "category": "Food",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
+    "text_button_bg": "#F87147",
+    "description": "Help provide nutritious meals to homeless individuals by donating to local shelters and food distribution programs.",
+    "price": 200
+  },
+  {
+    "id": 5,
+    "picture": "https://i.ibb.co/GQL3VMz/nutrition.jpg",
+    "title": "Nutritional Support for Children",
+    "category": "Food",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
+    "text_button_bg": "#F87147",
+    "description": "Support programs that provide nutritious meals and dietary supplements to malnourished children in impoverished areas.",
+    "price": 250
+  },
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/hBhvXsk/winter-coat.jpg",
+    "title": "Warm Winter Coats for Kids",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_button_bg": "#79C23F",
+    "description": "Contribute to providing warm winter coats to disadvantaged children, ensuring they stay warm and healthy during cold seasons.",
+    "price": 180
+  },
+  {
+    "id": 7,
+    "picture": "https://i.ibb.co/WHqymBN/school-technology.jpg",
+    "title": "Technology for Schools",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_button_bg": "#FF444A",
+    "description": "Donate to provide schools with essential technology and resources to enhance learning experiences for students.",
+    "price": 400
+  },
+  {
+    "id": 8,
+    "picture": "https://i.ibb.co/2nQy0ZX/medical-research.jpg",
+    "title": "Medical Research Funding",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_button_bg": "#0052FF",
+    "description": "Fund research projects focused on finding cures and treatments for various health conditions, improving healthcare globally.",
+    "price": 100
+  },
+  {
+    "id": 9,
+    "picture": "https://i.ibb.co/D5frdFC/community-health.jpg",
+    "title": "Community Health Workshops",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_button_bg": "#0052FF",
+    "description": "Sponsor community health workshops and seminars to educate and empower individuals with knowledge about health and wellness.",
+    "price": 350
+  },
+  {
+    "id": 10,
+    "picture": "https://i.ibb.co/QXgF0Z4/educational-materials.jpg",
+    "title": "Educational Materials for Schools",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_button_bg": "#FF444A",
+    "description": "Donate educational materials, books, and supplies to schools lacking resources, promoting a better learning environment for students.",
+    "price": 220
+  },
+  {
+    "id": 11,
+    "picture": "https://i.ibb.co/R2ydCQJ/clothing-essentials.jpg",
+    "title": "Clothing and Essentials for Homeless",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_button_bg": "#79C23F",
+    "description": "Donate clothing, toiletries, and essentials to homeless individuals, offering them comfort and dignity during difficult times.",
+    "price": 170
+  },
+  {
+    "id": 12,
+    "picture": "https://i.ibb.co/zPB4rNF/emergency-food.jpg",
+    "title": "Emergency Food Relief",
+    "category": "Food",
+    "category_bg": "#F8714733",
+    "card_bg": "#F8714726",
+    "text_button_bg": "#F87147",
+    "description": "Contribute to emergency food relief efforts, providing immediate assistance to those facing hunger and food insecurity.",
+    "price": 280
+  }
+]

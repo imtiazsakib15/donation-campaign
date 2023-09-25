@@ -1,11 +1,13 @@
+import "./Banner.css";
+
 const Banner = () => {
   return (
-    <>
-      <div className="2xl:container mx-auto bg-[bannerBg] w-full text-center h-[80vh] flex flex-col justify-center items-center">
+    <div className=" 2xl:container mx-auto">
+      <div className=" bg-[#fffffff0] text-center h-[80vh] flex flex-col justify-center items-center">
         <h3 className="text-2xl md:text-5xl font-bold w-2/3">
           I Grow By Helping People In Need
         </h3>
-        <div className="mt-10 mx-4">
+        <div className="mt-10 mx-1">
           <input
             className="px-4 py-2 leading-snug border rounded-l-lg"
             type="text"
@@ -16,8 +18,7 @@ const Banner = () => {
           </button>
         </div>
       </div>
-      {/* <div className="border"></div> */}
-    </>
+    </div>
   );
 };
 
