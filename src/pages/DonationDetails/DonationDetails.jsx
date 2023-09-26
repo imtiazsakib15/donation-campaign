@@ -32,7 +32,7 @@ const DonationDetails = () => {
   };
 
   return (
-    <div className="container mx-auto px-6 sm:px-10 lg:px-20 pt-8 my-28">
+    <div className="container mx-auto px-6 sm:px-10 lg:px-20 pt-8 mb-28">
       <div className="relative">
         <img
           className="w-full max-h-[800px] rounded-lg"
