@@ -22,11 +22,12 @@ const NavBar = () => {
           </button>
           <div
             className={`text-lg font-semibold flex flex-col md:flex-row bg-white items-center gap-10 absolute md:relative ${
-              showMenuBar ? "mt-72 w-full p-5" : "hidden"
+              showMenuBar ? "mt-72 w-full p-5 z-50" : "hidden"
             } md:flex md:mt-0 md:w-auto md:p-0`}
           >
             <NavLink
               to="/"
+              onClick={() => setShowMenuBar(false)}
               className={({ isActive }) =>
                 isActive ? "text-red-500 underline" : ""
               }
@@ -35,6 +36,7 @@ const NavBar = () => {
             </NavLink>
             <NavLink
               to="/donation"
+              onClick={() => setShowMenuBar(false)}
               className={({ isActive }) =>
                 isActive ? "text-red-500 underline" : ""
               }
@@ -43,6 +45,7 @@ const NavBar = () => {
             </NavLink>
             <NavLink
               to="/statistics"
+              onClick={() => setShowMenuBar(false)}
               className={({ isActive }) =>
                 isActive ? "text-red-500 underline" : ""
               }
