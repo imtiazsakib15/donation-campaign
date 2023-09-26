@@ -12,33 +12,38 @@ const Donation = () => {
   const myDonations = donations.filter((donation) =>
     donatedIds.includes(donation.id)
   );
-  const myDonationsSlice = myDonations.slice(0, 4);
+  let displayDonations;
+  if (myDonations.length > 4 && !showAll)
+    displayDonations = myDonations.slice(0, 4);
+  else displayDonations = [...myDonations];
 
   return (
     <div className="container mx-auto px-6 sm:px-10 lg:px-20 py-8">
       <div className="grid lg:grid-cols-2 gap-6">
-        {(showAll ? myDonations : myDonationsSlice).map((donation) => (
+        {displayDonations.map((donation) => (
           <Card key={donation.id} donation={donation} myDonation={true} />
         ))}
       </div>
-      <div className="text-center my-10">
-        <button
-          onClick={() => setShowAll(true)}
-          className={`bg-[#009444] text-white font-semibold px-6 py-3 rounded-lg ${
-            showAll ? "hidden" : ""
-          }`}
-        >
-          See All
-        </button>
-        <button
-          onClick={() => setShowAll(false)}
-          className={`bg-[#009444] text-white font-semibold px-6 py-3 rounded-lg ${
-            showAll ? "" : "hidden"
-          }`}
-        >
-          See Less
-        </button>
-      </div>
+      {myDonations.length > 4 && (
+        <div className="text-center my-10">
+          <button
+            onClick={() => setShowAll(true)}
+            className={`bg-[#009444] text-white font-semibold px-6 py-3 rounded-lg ${
+              showAll ? "hidden" : ""
+            }`}
+          >
+            See All
+          </button>
+          <button
+            onClick={() => setShowAll(false)}
+            className={`bg-[#009444] text-white font-semibold px-6 py-3 rounded-lg ${
+              showAll ? "" : "hidden"
+            }`}
+          >
+            See Less
+          </button>
+        </div>
+      )}
     </div>
   );
 };
