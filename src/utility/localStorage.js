@@ -2,7 +2,6 @@ const getFromLS = () => {
   const donations = localStorage.getItem("donationIds");
   if (donations) {
     const donationsJson = JSON.parse(donations);
-    //   console.log(donationsJson);
     return donationsJson;
   }
   return [];

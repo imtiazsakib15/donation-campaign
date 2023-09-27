@@ -1,22 +1,28 @@
-import { useLoaderData } from "react-router-dom";
 import { getFromLS } from "./../../utility/localStorage";
 import Card from "../../components/Card/Card";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Donation = () => {
+  const [donations, setDonations] = useState([]);
   const [showAll, setShowAll] = useState(false);
 
-  const donations = useLoaderData();
+  useEffect(() => {
+    fetch("data.json")
+      .then((res) => res.json())
+      .then((data) => setDonations(data));
+  }, []);
+
   const donatedIds = getFromLS();
 
   const myDonations = donations.filter((donation) =>
     donatedIds.includes(donation.id)
   );
   let displayDonations;
-  if (myDonations.length > 4 && !showAll)
+  if (myDonations.length === 0) displayDonations = [];
+  else if (myDonations.length > 4 && !showAll)
     displayDonations = myDonations.slice(0, 4);
   else displayDonations = [...myDonations];
-
+  
   return (
     <div className="container mx-auto px-6 sm:px-10 lg:px-20 py-8">
       <div className="grid lg:grid-cols-2 gap-6">
