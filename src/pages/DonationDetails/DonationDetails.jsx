@@ -42,7 +42,8 @@ const DonationDetails = () => {
         <div className="absolute bottom-0 w-full bg-[#0B0B0B90] p-10 rounded-b-lg">
           <button
             onClick={() => handleDonation(donationDetail?.id)}
-            className="text-white text-lg font-semibold bg-red-500 px-5 py-3 rounded"
+            style={{ backgroundColor: `${donationDetail?.text_button_bg}` }}
+            className="text-white text-lg font-semibold px-5 py-3 rounded"
           >
             Donate ${donationDetail?.price}
           </button>
