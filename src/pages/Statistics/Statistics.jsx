@@ -19,9 +19,21 @@ const Statistics = () => {
     ["Your Donation", yourDonationNumber],
     ["Total Donation", totalDonation],
   ];
+  const options = {
+    colors: ["#00C49F", "#FF444A"],
+    legend: {
+      position: "bottom",
+    },
+  };
 
   return (
-    <Chart chartType="PieChart" data={data} width={"100%"} height={"500px"} />
+    <Chart
+      chartType="PieChart"
+      options={options}
+      data={data}
+      width={"100%"}
+      height={"500px"}
+    />
   );
 };
 
